@@ -1,92 +1,57 @@
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
 }
 
 html {
-  font-size: 62.5%; /* 1rem = 10px */
+	font-size: 62.5%; /* 1rem = 10px */
 }
 
 body {
-  display: flex;
-  justify-content: center;
-  align-self: center;
-  font-family: 'Urbanist', sans-serif;
+	display: flex;
+	justify-content: center;
+	align-self: center;
+	font-family: "Urbanist", sans-serif;
 }
 
 h1 {
-  font-size: 5.5rem;
-  color: #028bb7;
+	font-size: 5.5rem;
+	color: #028bb7;
 }
 
 h2 {
-  font-size: 3rem;
-  border-bottom: 3px solid #ccc;
-  color: #028bb7;
-  font-style: italic;
-  margin-top: 2rem 0;
+	font-size: 3rem;
+	border-bottom: 3px solid #ccc;
+	color: #028bb7;
+	font-style: italic;
+	margin-top: 2rem 0;
 }
 
 h3 {
-  font-size: 2rem;
+	font-size: 2rem;
 }
 
 h4 {
-  font-size: 2rem;
+	font-size: 2rem;
 }
 
 p {
-  font-size: 1.70rem;
-  padding: 1rem 0
+	font-size: 1.7rem;
+	padding: 1rem 0;
 }
 
 li {
-  list-style: inside;
-  margin-left: 2rem;
-  font-size: 1.70rem;
+	list-style: inside;
+	margin-left: 2rem;
+	font-size: 1.7rem;
 }
 
 .container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  width: 91.3rem;
-  height: auto;
-}
-
-.header {
-  position: relative;
-  border: 3px solid #ccc;
-  width: 95%;
-  margin: 4rem 0;
-  padding: 2rem 0;
-  text-align: center;
-  
-}
-
-.header span {
-  position: absolute;
-  bottom: -2vh;
-  left: 50%;
-  transform: translateX(-50%);
-  background-color: white;
-  padding: 0.5rem 1rem;
-  font-size: 2rem;
-  text-transform: uppercase;
-}
-
-.main {
-  margin-top: 2rem;
-  display: grid;
-  padding: 0 2rem;
-  grid-template-columns: 2fr 1fr;
-  gap: 6rem;
-}
-
-.aside-elements-skills div {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 91.3rem;
+	height: auto;
 }

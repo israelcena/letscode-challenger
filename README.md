@@ -1,0 +1,1 @@
+This is a Challenge for the Let`s Code WebFull Stack Degree.
