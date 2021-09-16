@@ -15,43 +15,105 @@ body {
 	font-family: "Urbanist", sans-serif;
 }
 
-h1 {
-	font-size: 5.5rem;
-	color: #028bb7;
-}
-
-h2 {
-	font-size: 3rem;
-	border-bottom: 3px solid #ccc;
-	color: #028bb7;
-	font-style: italic;
-	margin-top: 2rem 0;
-}
-
-h3 {
-	font-size: 2rem;
-}
-
-h4 {
-	font-size: 2rem;
-}
-
-p {
-	font-size: 1.7rem;
-	padding: 1rem 0;
-}
-
 li {
-	list-style: inside;
+	list-style: none;
 	margin-left: 2rem;
 	font-size: 1.7rem;
 }
 
 .container {
 	display: flex;
-	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	width: 91.3rem;
-	height: auto;
+	max-width: 769px;
+	background-color: #f3f2ee;
+}
+
+.navbar-container {
+	width: 100%;
+	background-color: palevioletred;
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.navbar {
+	top: 0;
+	left: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 6rem;
+	width: 769px;
+	background-color: blueviolet;
+}
+
+.logo {
+	margin-right: 1rem;
+}
+
+.search-container {
+	width: 31rem;
+	transition: all 0.5s ease;
+	position: relative;
+	cursor: text;
+}
+
+#search {
+	padding: 1rem;
+	padding-left: 3rem;
+	width: 70%;
+	transition: width 0.5s ease;
+	border: none;
+}
+
+#search:focus {
+	outline: none;
+	padding-left: 4rem;
+	width: 100%;
+}
+
+#search:hover {
+	outline: none;
+	border: none;
+}
+
+.search-icon {
+	position: absolute;
+	left: 1rem;
+	top: 1.3rem;
+}
+
+.btns {
+	display: flex;
+	margin-right: 2rem;
+}
+
+.btn-group {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	cursor: pointer;
+}
+
+.btn-group > *:hover {
+	filter: brightness(2.2);
+}
+
+.btn-group span {
+	font-size: 1rem;
+}
+
+.profile {
+	display: flex;
+	cursor: pointer;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.img-item {
+	width: 1.2vw;
+	border-radius: 50%;
 }
