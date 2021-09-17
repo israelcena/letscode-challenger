@@ -1,3 +1,4 @@
+/* Globals */
 * {
 	padding: 0;
 	margin: 0;
@@ -29,9 +30,9 @@ li {
 	background-color: #f3f2ee;
 }
 
+/* Header Section */
 .navbar-container {
 	width: 100%;
-	background-color: palevioletred;
 	position: fixed;
 	display: flex;
 	justify-content: center;
@@ -42,22 +43,21 @@ li {
 	top: 0;
 	left: 0;
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 	align-items: center;
 	height: 6rem;
 	width: 769px;
-	background-color: blueviolet;
+	padding: 0 1.5rem;
 }
 
 .logo {
-	margin-right: 1rem;
+	margin-right: -0.5rem;
 }
 
 .search-container {
 	width: 31rem;
 	transition: all 0.5s ease;
 	position: relative;
-	cursor: text;
 }
 
 #search {
@@ -66,6 +66,8 @@ li {
 	width: 70%;
 	transition: width 0.5s ease;
 	border: none;
+	background-color: #eef3f7;
+	border-radius: 0.5rem;
 }
 
 #search:focus {
@@ -80,9 +82,10 @@ li {
 }
 
 .search-icon {
+	cursor: text;
 	position: absolute;
-	left: 1rem;
-	top: 1.3rem;
+	left: 1.2rem;
+	top: 1.2rem;
 }
 
 .btns {
@@ -93,12 +96,16 @@ li {
 .btn-group {
 	display: flex;
 	align-items: center;
+	justify-content: center;
 	flex-direction: column;
 	cursor: pointer;
+	filter: invert(30%);
 }
 
-.btn-group > *:hover {
-	filter: brightness(2.2);
+.btn-group:hover {
+	filter: invert(0%);
+	color: var(--color-gray-3);
+	transition: all 0.3s ease;
 }
 
 .btn-group span {
@@ -114,6 +121,6 @@ li {
 }
 
 .img-item {
-	width: 1.2vw;
+	width: 2.5rem;
 	border-radius: 50%;
 }
