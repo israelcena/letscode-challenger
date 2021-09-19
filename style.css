@@ -45,6 +45,7 @@ hr {
 }
 
 /* Header Section */
+
 .navbar-container {
 	width: 100%;
 	position: fixed;
@@ -155,7 +156,7 @@ hr {
 	margin: 3rem;
 }
 
-/* profile section */
+/* Profile section */
 
 .profile-info {
 	background: no-repeat url("./images/fundo.png");
