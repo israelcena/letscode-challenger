@@ -1,4 +1,8 @@
 /* Globals */
+:root {
+	--color-gray: #666666;
+}
+
 * {
 	padding: 0;
 	margin: 0;
@@ -56,11 +60,12 @@ a:visited {
 	align-items: center;
 	height: 6rem;
 	width: 769px;
-	padding: 0 1.5rem;
+	padding: 0 1.7rem;
 }
 
 .logo {
 	margin-right: -0.5rem;
+	cursor: pointer;
 }
 
 .search-container {
@@ -147,10 +152,12 @@ a:visited {
 	margin: 3rem;
 }
 
+/* profile section */
+
 .profile-info {
 	background: no-repeat url("./images/fundo.png");
 	background-size: contain;
-	height: 38rem;
+	height: 35rem;
 	position: relative;
 }
 
@@ -159,7 +166,60 @@ a:visited {
 	top: 9rem;
 	padding: 3rem;
 }
+.profile-img {
+	margin-bottom: 1rem;
+}
 
 .profile-img img {
 	border-radius: 50%;
+}
+
+.profile-text-container {
+	margin-bottom: 1.1rem;
+}
+
+.profile-text-container > * {
+	margin-bottom: 2px;
+}
+
+.profile-text-h {
+	font-size: 1.8rem;
+	font-weight: 700;
+}
+
+.profile-text-description {
+	font-size: 1.4rem;
+	font-weight: 400;
+}
+
+.profile-text-address {
+	font-size: 1.2rem;
+	color: var(--color-gray);
+}
+
+.profile-buttons > button {
+	padding: 0.4rem 1.5rem;
+	border-radius: 1.5rem;
+	outline: none;
+	border: 1px var(--color-gray) solid;
+	background-color: white;
+	color: var(--color-gray);
+	font-weight: bold;
+	font-size: 11px;
+	line-height: 13px;
+}
+
+.profile-buttons > button:hover {
+	cursor: pointer;
+	filter: brightness(1.1);
+}
+
+.profile-buttons > button:not(:last-child) {
+	margin-right: 1.4rem;
+}
+
+#profile-buttons-emp {
+	background-color: #0b65c2;
+	color: white;
+	border: 1px #0b65c2 solid;
 }
