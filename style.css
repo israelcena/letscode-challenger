@@ -33,6 +33,10 @@ a:visited {
 	color: inherit;
 }
 
+hr {
+	border: 1px solid #ebebeb;
+}
+
 .container {
 	display: flex;
 	align-items: center;
