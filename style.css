@@ -14,6 +14,7 @@ body {
 	justify-content: center;
 	align-self: center;
 	font-family: "Urbanist", sans-serif;
+	background-color: #f3f2ee;
 }
 
 li {
@@ -37,6 +38,8 @@ li {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	background-color: white;
+	z-index: 10;
 }
 
 .navbar {
@@ -122,5 +125,35 @@ li {
 
 .img-item {
 	width: 2.5rem;
+	border-radius: 50%;
+}
+
+/* Main content */
+
+.main-content {
+	width: 796px;
+	margin-top: 7rem;
+}
+
+.main-content article {
+	background-color: white;
+	border-radius: 0.5rem;
+	margin: 3rem;
+}
+
+.profile-info {
+	background: no-repeat url("./images/fundo.png");
+	background-size: contain;
+	height: 38rem;
+	position: relative;
+}
+
+.profile-info-container {
+	position: absolute;
+	top: 9rem;
+	padding: 3rem;
+}
+
+.profile-img img {
 	border-radius: 50%;
 }
