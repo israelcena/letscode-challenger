@@ -20,12 +20,6 @@ body {
 	background-color: #f3f2ee;
 }
 
-li {
-	list-style: none;
-	margin-left: 2rem;
-	font-size: 1.7rem;
-}
-
 a,
 a:visited {
 	text-decoration: none;
@@ -109,6 +103,13 @@ hr {
 .btns {
 	display: flex;
 	margin-right: 2rem;
+}
+
+.btn {
+	list-style: none;
+	margin-left: 1rem;
+	font-size: 1.7rem;
+	width: 5rem;
 }
 
 .btn-group {
@@ -226,4 +227,71 @@ hr {
 	background-color: #0b65c2;
 	color: white;
 	border: 1px #0b65c2 solid;
+}
+
+/* Articles Section */
+
+.article-container {
+	padding: 1.6rem 2.1rem;
+}
+
+.article-title-heading {
+	font-size: 1.4rem;
+	margin-bottom: 3rem;
+}
+
+/* Common styles used for children */
+
+.content-container {
+	display: flex;
+}
+
+.content-img-container {
+	margin-right: 2.1rem;
+	padding-bottom: 4rem;
+}
+
+.content-img-item {
+	height: 8vh;
+}
+
+.content-text-container {
+	width: 100%;
+	margin-bottom: 2rem;
+}
+
+.content-text-container > h3 {
+	font-size: 1.2rem;
+	line-height: 1.5rem;
+}
+
+.content-text-container > h4 {
+	font-size: 1.1rem;
+	font-weight: 400;
+	line-height: 1.34rem;
+}
+
+.content-text-container > p {
+	font-size: 1.1rem;
+	font-weight: 400;
+	line-height: 1.34rem;
+	color: var(--color-gray);
+}
+
+/* Exp Section */
+
+.exp-container {
+	padding: 1rem 0;
+	padding-bottom: 2rem;
+}
+
+.exp-container h5 {
+	font-size: 1.1rem;
+	font-weight: 400;
+	margin-bottom: 0.5rem;
+}
+
+.exp-container ul li {
+	margin-left: 1rem;
+	font-size: 1.1rem;
 }
