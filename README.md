@@ -1,5 +1,7 @@
 # The LinkedIn Profile!
 
+![Image challenger](imgchallenger.png)
+
 This is a first officialy challenge for the Let`s Code WebFull Stack Degree.
 
 In this project, I`ve recreated the my own LinkedIn Profile used only HTML and CSS technologies.
