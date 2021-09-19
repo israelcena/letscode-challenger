@@ -1,5 +1,8 @@
 /* Globals */
 :root {
+	font-size: 62.5%; /*  1rem = 10px */
+
+	/* Colors */
 	--color-gray: #666666;
 }
 
@@ -7,10 +10,6 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-}
-
-html {
-	font-size: 62.5%; /* 1rem = 10px */
 }
 
 body {
